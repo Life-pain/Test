@@ -3,6 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 //коммент 1
+//коммент 2
 public class Solution {
     public static void main(String[] args) throws Exception {
         Scanner scan = new Scanner(System.in);
