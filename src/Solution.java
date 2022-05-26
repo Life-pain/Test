@@ -51,7 +51,6 @@ public class Solution {
         }
     }
     public static String isOperand(String str) {
-        System.out.println();
         if (str.indexOf("+") > 0) return "+";
         if (str.indexOf("-") > 0) return "-";
         if (str.indexOf("/") > 0) return "/";
