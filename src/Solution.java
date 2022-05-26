@@ -58,7 +58,7 @@ public class Solution {
         if (str.indexOf("*") > 0) return "*";
         return null;
     }   //вычисляем какой операнд
-
+ 
     public static String romanOrArabic(String a, String b) {
         List<String> roman = new ArrayList<>(Arrays.asList("I", "V", "X"));
         int isRoman1 = 0;
