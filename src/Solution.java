@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
-//коммент 1
+
 public class Solution {
     public static void main(String[] args) throws Exception {
         Scanner scan = new Scanner(System.in);
@@ -58,7 +58,7 @@ public class Solution {
         if (str.indexOf("*") > 0) return "*";
         return null;
     }   //вычисляем какой операнд
-
+ 
     public static String romanOrArabic(String a, String b) {
         List<String> roman = new ArrayList<>(Arrays.asList("I", "V", "X"));
         int isRoman1 = 0;
